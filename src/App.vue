@@ -1,28 +1,20 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
-import TopBar from './components/TopBar.vue'
+import TopBar from './components/TopBar.vue';
+import megaEvolutions from './assets/data.json';
 </script>
 
 <template>
   <TopBar />
   <div>
-    <ul>
-      <li></li>
+    <ul class="pokemon__list">
+      <div v-for="data in megaEvolutions">{{ data }}</div>
     </ul>
   </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.pokemon__list{
+  list-style: none;
 }
 </style>

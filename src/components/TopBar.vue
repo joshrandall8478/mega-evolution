@@ -23,28 +23,35 @@
 </template>
 <style scoped>
 nav{
-    position: absolute;
+    
+    position: fixed;
+
     top: 0;
     left: 0;
-    background-color: red;
+    background-color: gray;
     width: 100vw;
     height: 150px;
 }
-#nav__logo{
-    width: 100px;
-    height: auto;
-}
 .nav__container{
     display: flex;
-
-    
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+    margin: 0px 50px;
 }
+#nav__logo{
+    display: flex;
+    width: 75px;
+    height: auto;
+}
+
 .nav__items{
     display: flex;
+    align-self: center;
 
 }
 .nav__link{
-    padding: 0px 5px;
+    padding: 0px 25px;
     list-style: none;
     font-size: 2em;
 }
