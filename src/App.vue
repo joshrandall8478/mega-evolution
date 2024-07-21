@@ -1,16 +1,28 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
 import TopBar from './components/TopBar.vue';
-import megaEvolutions from './assets/data.json';
+
+
+
 </script>
+<script>
+import data from './assets/data.json';
+export default {
+  data() {
+    return {
+      pokemons: data
+    };
+  }
+}
+</script>
+
 
 <template>
   <TopBar />
-  <div>
-    <ul class="pokemon__list">
-      <div v-for="data in megaEvolutions">{{ data }}</div>
-    </ul>
-  </div>
+  <div v-for="pokemon in pokemons">
+    <!-- <img :src="pokemon.originalImage" alt=""> -->
+     {{  }}
+   </div>
 </template>
 
 <style scoped>

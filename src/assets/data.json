@@ -1,471 +1,922 @@
 {
-    "megaEvolutions": [
-      {
-        "name": "Venusaur",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Venusaur",
-            "originalType": ["Grass", "Poison"],
-            "megaType": ["Grass", "Poison"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/venusaur.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/venusaur-mega.jpg",
-            "description": "Mega Venusaur is a Grass/Poison type Pokémon. It gains increased defenses and a larger flower with additional leaves, making it bulkier and more formidable.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/venusaurite.png"
-          }
-        ]
-      },
-      {
-        "name": "Charizard",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Charizard X",
-            "originalType": ["Fire", "Flying"],
-            "megaType": ["Fire", "Dragon"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/charizard.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/charizard-mega-x.jpg",
-            "description": "Mega Charizard X is a Dragon/Fire type Pokémon. Its physical appearance is vastly different from its original form, taking on a dragon-like appearance with a predominantly black body and blue flames.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/charizardite-x.png"
-          },
-          {
-            "megaName": "Mega Charizard Y",
-            "originalType": ["Fire", "Flying"],
-            "megaType": ["Fire", "Flying"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/charizard.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/charizard-mega-y.jpg",
-            "description": "Mega Charizard Y remains a Fire/Flying type but gains increased Special Attack and Speed stats. It takes on a more slender appearance with larger wings.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/charizardite-y.png"
-          }
-        ]
-      },
-      {
-        "name": "Blastoise",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Blastoise",
-            "originalType": ["Water"],
-            "megaType": ["Water"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/blastoise.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/blastoise-mega.jpg",
-            "description": "Mega Blastoise is a Water type Pokémon. It gains increased Special Attack and Defense stats, with a larger and more powerful water cannon on its back.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/blastoisenite.png"
-          }
-        ]
-      },
-      {
-        "name": "Beedrill",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Beedrill",
-            "originalType": ["Bug", "Poison"],
-            "megaType": ["Bug", "Poison"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/beedrill.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/beedrill-mega.jpg",
-            "description": "Mega Beedrill is a Bug/Poison type Pokémon. It gains increased Attack and Speed stats, with a more streamlined and aggressive appearance featuring larger stingers.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/beedrillite.png"
-          }
-        ]
-      },
-      {
-        "name": "Pidgeot",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Pidgeot",
-            "originalType": ["Normal", "Flying"],
-            "megaType": ["Normal", "Flying"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/pidgeot.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/pidgeot-mega.jpg",
-            "description": "Mega Pidgeot is a Normal/Flying type Pokémon. It gains increased Special Attack and Speed stats, with larger and more colorful plumage.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/pidgeotite.png"
-          }
-        ]
-      },
-      {
-        "name": "Alakazam",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Alakazam",
-            "originalType": ["Psychic"],
-            "megaType": ["Psychic"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/alakazam.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/alakazam-mega.jpg",
-            "description": "Mega Alakazam is a Psychic type Pokémon. It gains increased Special Attack and Speed stats, with additional spoons floating around it, symbolizing its enhanced psychic powers.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/alakazite.png"
-          }
-        ]
-      },
-      {
-        "name": "Slowbro",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Slowbro",
-            "originalType": ["Water", "Psychic"],
-            "megaType": ["Water", "Psychic"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/slowbro.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/slowbro-mega.jpg",
-            "description": "Mega Slowbro is a Water/Psychic type Pokémon. It gains increased Defense and Special Attack stats, with the Shellder taking on a more prominent role as armor.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/slowbronite.png"
-          }
-        ]
-      },
-      {
-        "name": "Gengar",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Gengar",
-            "originalType": ["Ghost", "Poison"],
-            "megaType": ["Ghost", "Poison"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/gengar.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/gengar-mega.jpg",
-            "description": "Mega Gengar is a Ghost/Poison type Pokémon. It gains increased Special Attack and Speed stats, with a more sinister appearance featuring a third eye on its forehead.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/gengarite.png"
-          }
-        ]
-      },
-      {
-        "name": "Kangaskhan",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Kangaskhan",
-            "originalType": ["Normal"],
-            "megaType": ["Normal"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/kangaskhan.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/kangaskhan-mega.jpg",
-            "description": "Mega Kangaskhan is a Normal type Pokémon. It gains increased Attack and Speed stats, with the baby Kangaskhan fully emerging from its mother's pouch to fight alongside it.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/kangaskhanite.png"
-          }
-        ]
-      },
-      {
-        "name": "Pinsir",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Pinsir",
-            "originalType": ["Bug"],
-            "megaType": ["Bug", "Flying"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/pinsir.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/pinsir-mega.jpg",
-            "description": "Mega Pinsir is a Bug/Flying type Pokémon. It gains increased Attack and Defense stats, with large wings sprouting from its back, giving it the ability to fly.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/pinsirite.png"
-          }
-        ]
-      },
-      {
-        "name": "Gyarados",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Gyarados",
-            "originalType": ["Water", "Flying"],
-            "megaType": ["Water", "Dark"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/gyarados.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/gyarados-mega.jpg",
-            "description": "Mega Gyarados is a Water/Dark type Pokémon. It gains increased Attack and Defense stats, with a more fearsome appearance featuring additional fins and spikes.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/gyaradosite.png"
-          }
-        ]
-      },
-      {
-        "name": "Aerodactyl",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Aerodactyl",
-            "originalType": ["Rock", "Flying"],
-            "megaType": ["Rock", "Flying"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/aerodactyl.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/aerodactyl-mega.jpg",
-            "description": "Mega Aerodactyl is a Rock/Flying type Pokémon. It gains increased Attack and Speed stats, with a more armored appearance featuring additional rocky spikes.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/aerodactylite.png"
-          }
-        ]
-      },
-      {
-        "name": "Mewtwo",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Mewtwo X",
-            "originalType": ["Psychic"],
-            "megaType": ["Psychic", "Fighting"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/mewtwo.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/mewtwo-mega-x.jpg",
-            "description": "Mega Mewtwo X is a Psychic/Fighting type Pokémon. It gains increased Attack and Defense stats and takes on a more muscular appearance.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/mewtwonite-x.png"
-          },
-          {
-            "megaName": "Mega Mewtwo Y",
-            "originalType": ["Psychic"],
-            "megaType": ["Psychic"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/mewtwo.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/mewtwo-mega-y.jpg",
-            "description": "Mega Mewtwo Y is a Psychic type Pokémon. It gains increased Special Attack and Speed stats and takes on a sleeker, more streamlined appearance.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/mewtwonite-y.png"
-          }
-        ]
-      },
-      {
-        "name": "Ampharos",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Ampharos",
-            "originalType": ["Electric"],
-            "megaType": ["Electric", "Dragon"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/ampharos.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/ampharos-mega.jpg",
-            "description": "Mega Ampharos is an Electric/Dragon type Pokémon. It gains increased Special Attack and Special Defense stats, with a more majestic appearance featuring a flowing mane.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/ampharosite.png"
-          }
-        ]
-      },
-      {
-        "name": "Scizor",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Scizor",
-            "originalType": ["Bug", "Steel"],
-            "megaType": ["Bug", "Steel"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/scizor.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/scizor-mega.jpg",
-            "description": "Mega Scizor is a Bug/Steel type Pokémon. It gains increased Attack and Defense stats, with a more robust and armored appearance featuring larger pincers.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/scizorite.png"
-          }
-        ]
-      },
-      {
-        "name": "Heracross",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Heracross",
-            "originalType": ["Bug", "Fighting"],
-            "megaType": ["Bug", "Fighting"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/heracross.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/heracross-mega.jpg",
-            "description": "Mega Heracross is a Bug/Fighting type Pokémon. It gains increased Attack and Defense stats, with a larger and more formidable horn.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/heracronite.png"
-          }
-        ]
-      },
-      {
-        "name": "Houndoom",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Houndoom",
-            "originalType": ["Dark", "Fire"],
-            "megaType": ["Dark", "Fire"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/houndoom.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/houndoom-mega.jpg",
-            "description": "Mega Houndoom is a Dark/Fire type Pokémon. It gains increased Special Attack and Speed stats, with a more demonic appearance featuring additional spikes and a skeletal design.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/houndoominite.png"
-          }
-        ]
-      },
-      {
-        "name": "Tyranitar",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Tyranitar",
-            "originalType": ["Rock", "Dark"],
-            "megaType": ["Rock", "Dark"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/tyranitar.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/tyranitar-mega.jpg",
-            "description": "Mega Tyranitar is a Rock/Dark type Pokémon. It gains increased Attack and Defense stats, with a more armored appearance featuring additional spikes and a bulkier build.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/tyranitarite.png"
-          }
-        ]
-      },
-      {
-        "name": "Blaziken",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Blaziken",
-            "originalType": ["Fire", "Fighting"],
-            "megaType": ["Fire", "Fighting"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/blaziken.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/blaziken-mega.jpg",
-            "description": "Mega Blaziken is a Fire/Fighting type Pokémon. It gains increased Attack and Speed stats, with a more aggressive and fiery appearance.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/blazikenite.png"
-          }
-        ]
-      },
-      {
-        "name": "Gardevoir",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Gardevoir",
-            "originalType": ["Psychic", "Fairy"],
-            "megaType": ["Psychic", "Fairy"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/gardevoir.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/gardevoir-mega.jpg",
-            "description": "Mega Gardevoir is a Psychic/Fairy type Pokémon. It gains increased Special Attack and Special Defense stats, with a more elegant and regal appearance featuring a larger dress-like structure.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/gardevoirite.png"
-          }
-        ]
-      },
-      {
-        "name": "Mawile",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Mawile",
-            "originalType": ["Steel", "Fairy"],
-            "megaType": ["Steel", "Fairy"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/mawile.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/mawile-mega.jpg",
-            "description": "Mega Mawile is a Steel/Fairy type Pokémon. It gains increased Attack and Defense stats, with a more fearsome appearance featuring additional jaw-like structures.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/mawilite.png"
-          }
-        ]
-      },
-      {
-        "name": "Aggron",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Aggron",
-            "originalType": ["Steel", "Rock"],
-            "megaType": ["Steel"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/aggron.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/aggron-mega.jpg",
-            "description": "Mega Aggron is a Steel type Pokémon. It gains increased Defense and Attack stats, with a more heavily armored appearance featuring additional spikes and plating.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/aggronite.png"
-          }
-        ]
-      },
-      {
-        "name": "Medicham",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Medicham",
-            "originalType": ["Fighting", "Psychic"],
-            "megaType": ["Fighting", "Psychic"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/medicham.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/medicham-mega.jpg",
-            "description": "Mega Medicham is a Fighting/Psychic type Pokémon. It gains increased Attack and Speed stats, with a more focused and battle-ready appearance.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/medichamite.png"
-          }
-        ]
-      },
-      {
-        "name": "Manectric",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Manectric",
-            "originalType": ["Electric"],
-            "megaType": ["Electric"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/manectric.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/manectric-mega.jpg",
-            "description": "Mega Manectric is an Electric type Pokémon. It gains increased Special Attack and Speed stats, with a more aggressive appearance featuring a large mane of lightning-like spikes.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/manectite.png"
-          }
-        ]
-      },
-      {
-        "name": "Banette",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Banette",
-            "originalType": ["Ghost"],
-            "megaType": ["Ghost"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/banette.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/banette-mega.jpg",
-            "description": "Mega Banette is a Ghost type Pokémon. It gains increased Attack and Speed stats, with a more sinister and menacing appearance featuring additional zippers and a puppet-like design.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/banettite.png"
-          }
-        ]
-      },
-      {
-        "name": "Absol",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Absol",
-            "originalType": ["Dark"],
-            "megaType": ["Dark"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/absol.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/absol-mega.jpg",
-            "description": "Mega Absol is a Dark type Pokémon. It gains increased Attack and Speed stats, with a more majestic and angelic appearance featuring wings.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/absolite.png"
-          }
-        ]
-      },
-      {
-        "name": "Garchomp",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Garchomp",
-            "originalType": ["Dragon", "Ground"],
-            "megaType": ["Dragon", "Ground"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/garchomp.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/garchomp-mega.jpg",
-            "description": "Mega Garchomp is a Dragon/Ground type Pokémon. It gains increased Attack and Defense stats, with a more fearsome appearance featuring larger claws and a more streamlined body.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/garchompite.png"
-          }
-        ]
-      },
-      {
-        "name": "Lucario",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Lucario",
-            "originalType": ["Fighting", "Steel"],
-            "megaType": ["Fighting", "Steel"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/lucario.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/lucario-mega.jpg",
-            "description": "Mega Lucario is a Fighting/Steel type Pokémon. It gains increased Attack and Speed stats, with a more aggressive and battle-ready appearance.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/lucarionite.png"
-          }
-        ]
-      },
-      {
-        "name": "Abomasnow",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Abomasnow",
-            "originalType": ["Grass", "Ice"],
-            "megaType": ["Grass", "Ice"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/abomasnow.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/abomasnow-mega.jpg",
-            "description": "Mega Abomasnow is a Grass/Ice type Pokémon. It gains increased Attack and Defense stats, with a more monstrous and formidable appearance featuring additional ice spikes.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/abomasite.png"
-          }
-        ]
-      },
-      {
-        "name": "Gallade",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Gallade",
-            "originalType": ["Psychic", "Fighting"],
-            "megaType": ["Psychic", "Fighting"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/gallade.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/gallade-mega.jpg",
-            "description": "Mega Gallade is a Psychic/Fighting type Pokémon. It gains increased Attack and Speed stats, with a more knight-like appearance featuring larger blades.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/galladite.png"
-          }
-        ]
-      },
-      {
-        "name": "Audino",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Audino",
-            "originalType": ["Normal"],
-            "megaType": ["Normal", "Fairy"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/audino.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/audino-mega.jpg",
-            "description": "Mega Audino is a Normal/Fairy type Pokémon. It gains increased Defense and Special Defense stats, with a more elegant and nurturing appearance.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/audinite.png"
-          }
-        ]
-      },
-      {
-        "name": "Diancie",
-        "megaEvolutions": [
-          {
-            "megaName": "Mega Diancie",
-            "originalType": ["Rock", "Fairy"],
-            "megaType": ["Rock", "Fairy"],
-            "originalImage": "https://img.pokemondb.net/artwork/large/diancie.jpg",
-            "megaImage": "https://img.pokemondb.net/artwork/large/diancie-mega.jpg",
-            "description": "Mega Diancie is a Rock/Fairy type Pokémon. It gains increased Attack and Special Attack stats, with a more crystalline and regal appearance.",
-            "megaStoneImage": "https://img.pokemondb.net/sprites/items/diancite.png"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "name": "Venusaur",
+      "originalType": [
+        "Grass",
+        "Poison"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/venusaur.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Venusaur",
+          "megaType": [
+            "Grass",
+            "Poison"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/venusaur-mega.jpg",
+          "description": "Mega Venusaur is a Grass/Poison type Pokémon. It gains increased defenses and a larger flower with additional leaves, making it bulkier and more formidable.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/venusaurite.png"
+        }
+      ]
+    },
+    {
+      "name": "Charizard",
+      "originalType": [
+        "Fire",
+        "Flying"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/charizard.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Charizard X",
+          "megaType": [
+            "Fire",
+            "Dragon"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/charizard-mega-x.jpg",
+          "description": "Mega Charizard X is a Dragon/Fire type Pokémon. Its physical appearance is vastly different from its original form, taking on a dragon-like appearance with a predominantly black body and blue flames.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/charizardite-x.png"
+        },
+        {
+          "megaName": "Mega Charizard Y",
+          "megaType": [
+            "Fire",
+            "Flying"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/charizard-mega-y.jpg",
+          "description": "Mega Charizard Y remains a Fire/Flying type but gains increased Special Attack and Speed stats. It takes on a more slender appearance with larger wings.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/charizardite-y.png"
+        }
+      ]
+    },
+    {
+      "name": "Blastoise",
+      "originalType": [
+        "Water"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/blastoise.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Blastoise",
+          "megaType": [
+            "Water"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/blastoise-mega.jpg",
+          "description": "Mega Blastoise is a Water type Pokémon. It gains increased Special Attack and Defense stats, with a larger and more powerful water cannon on its back.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/blastoisenite.png"
+        }
+      ]
+    },
+    {
+      "name": "Beedrill",
+      "originalType": [
+        "Bug",
+        "Poison"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/beedrill.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Beedrill",
+          "megaType": [
+            "Bug",
+            "Poison"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/beedrill-mega.jpg",
+          "description": "Mega Beedrill is a Bug/Poison type Pokémon. It gains increased Attack and Speed stats, with a more streamlined and aggressive appearance featuring larger stingers.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/beedrillite.png"
+        }
+      ]
+    },
+    {
+      "name": "Pidgeot",
+      "originalType": [
+        "Normal",
+        "Flying"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/pidgeot.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Pidgeot",
+          "megaType": [
+            "Normal",
+            "Flying"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/pidgeot-mega.jpg",
+          "description": "Mega Pidgeot is a Normal/Flying type Pokémon. It gains increased Special Attack and Speed stats, with larger and more colorful plumage.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/pidgeotite.png"
+        }
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "originalType": [
+        "Psychic"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/alakazam.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Alakazam",
+          "megaType": [
+            "Psychic"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/alakazam-mega.jpg",
+          "description": "Mega Alakazam is a Psychic type Pokémon. It gains increased Special Attack and Speed stats, with additional spoons floating around it, symbolizing its enhanced psychic powers.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/alakazite.png"
+        }
+      ]
+    },
+    {
+      "name": "Slowbro",
+      "originalType": [
+        "Water",
+        "Psychic"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/slowbro.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Slowbro",
+          "megaType": [
+            "Water",
+            "Psychic"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/slowbro-mega.jpg",
+          "description": "Mega Slowbro is a Water/Psychic type Pokémon. It gains increased Defense and Special Attack stats, with the Shellder taking on a more prominent role as armor.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/slowbronite.png"
+        }
+      ]
+    },
+    {
+      "name": "Gengar",
+      "originalType": [
+        "Ghost",
+        "Poison"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/gengar.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Gengar",
+          "megaType": [
+            "Ghost",
+            "Poison"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/gengar-mega.jpg",
+          "description": "Mega Gengar is a Ghost/Poison type Pokémon. It gains increased Special Attack and Speed stats, with a more sinister appearance featuring a third eye on its forehead.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/gengarite.png"
+        }
+      ]
+    },
+    {
+      "name": "Kangaskhan",
+      "originalType": [
+        "Normal"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/kangaskhan.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Kangaskhan",
+          "megaType": [
+            "Normal"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/kangaskhan-mega.jpg",
+          "description": "Mega Kangaskhan is a Normal type Pokémon. It gains increased Attack and Speed stats, with the baby Kangaskhan fully emerging from its mother's pouch to fight alongside it.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/kangaskhanite.png"
+        }
+      ]
+    },
+    {
+      "name": "Pinsir",
+      "originalType": [
+        "Bug"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/pinsir.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Pinsir",
+          "megaType": [
+            "Bug",
+            "Flying"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/pinsir-mega.jpg",
+          "description": "Mega Pinsir is a Bug/Flying type Pokémon. It gains increased Attack and Defense stats, with large wings sprouting from its back, giving it the ability to fly.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/pinsirite.png"
+        }
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "originalType": [
+        "Water",
+        "Flying"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/gyarados.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Gyarados",
+          "megaType": [
+            "Water",
+            "Dark"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/gyarados-mega.jpg",
+          "description": "Mega Gyarados is a Water/Dark type Pokémon. It gains increased Attack and Defense stats, with a more fearsome appearance featuring additional fins and spikes.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/gyaradosite.png"
+        }
+      ]
+    },
+    {
+      "name": "Aerodactyl",
+      "originalType": [
+        "Rock",
+        "Flying"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/aerodactyl.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Aerodactyl",
+          "megaType": [
+            "Rock",
+            "Flying"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/aerodactyl-mega.jpg",
+          "description": "Mega Aerodactyl is a Rock/Flying type Pokémon. It gains increased Attack and Speed stats, with additional rock-like spikes covering its body, enhancing its prehistoric look.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/aerodactylite.png"
+        }
+      ]
+    },
+    {
+      "name": "Mewtwo",
+      "originalType": [
+        "Psychic"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/mewtwo.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Mewtwo X",
+          "megaType": [
+            "Psychic",
+            "Fighting"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/mewtwo-mega-x.jpg",
+          "description": "Mega Mewtwo X is a Psychic/Fighting type Pokémon. It gains increased Attack and Defense stats, with a more muscular and imposing appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/mewtwonite-x.png"
+        },
+        {
+          "megaName": "Mega Mewtwo Y",
+          "megaType": [
+            "Psychic"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/mewtwo-mega-y.jpg",
+          "description": "Mega Mewtwo Y is a Psychic type Pokémon. It gains increased Special Attack and Speed stats, with a more streamlined and slender appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/mewtwonite-y.png"
+        }
+      ]
+    },
+    {
+      "name": "Ampharos",
+      "originalType": [
+        "Electric"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/ampharos.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Ampharos",
+          "megaType": [
+            "Electric",
+            "Dragon"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/ampharos-mega.jpg",
+          "description": "Mega Ampharos is an Electric/Dragon type Pokémon. It gains increased Special Attack and Special Defense stats, with a more majestic appearance featuring a flowing white mane.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/ampharosite.png"
+        }
+      ]
+    },
+    {
+      "name": "Steelix",
+      "originalType": [
+        "Steel",
+        "Ground"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/steelix.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Steelix",
+          "megaType": [
+            "Steel",
+            "Ground"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/steelix-mega.jpg",
+          "description": "Mega Steelix is a Steel/Ground type Pokémon. It gains increased Defense and Attack stats, with additional crystalline spikes protruding from its body, enhancing its defensive capabilities.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/steelixite.png"
+        }
+      ]
+    },
+    {
+      "name": "Scizor",
+      "originalType": [
+        "Bug",
+        "Steel"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/scizor.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Scizor",
+          "megaType": [
+            "Bug",
+            "Steel"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/scizor-mega.jpg",
+          "description": "Mega Scizor is a Bug/Steel type Pokémon. It gains increased Attack and Defense stats, with larger and more fearsome pincers, enhancing its offensive and defensive capabilities.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/scizorite.png"
+        }
+      ]
+    },
+    {
+      "name": "Heracross",
+      "originalType": [
+        "Bug",
+        "Fighting"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/heracross.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Heracross",
+          "megaType": [
+            "Bug",
+            "Fighting"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/heracross-mega.jpg",
+          "description": "Mega Heracross is a Bug/Fighting type Pokémon. It gains increased Attack and Defense stats, with a larger horn and more robust body, enhancing its physical prowess.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/heracronite.png"
+        }
+      ]
+    },
+    {
+      "name": "Houndoom",
+      "originalType": [
+        "Dark",
+        "Fire"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/houndoom.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Houndoom",
+          "megaType": [
+            "Dark",
+            "Fire"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/houndoom-mega.jpg",
+          "description": "Mega Houndoom is a Dark/Fire type Pokémon. It gains increased Special Attack and Speed stats, with a more fearsome appearance featuring additional spikes and a larger flame on its tail.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/houndoominite.png"
+        }
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "originalType": [
+        "Rock",
+        "Dark"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/tyranitar.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Tyranitar",
+          "megaType": [
+            "Rock",
+            "Dark"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/tyranitar-mega.jpg",
+          "description": "Mega Tyranitar is a Rock/Dark type Pokémon. It gains increased Attack and Defense stats, with additional armor-like spikes and a more menacing appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/tyranitarite.png"
+        }
+      ]
+    },
+    {
+      "name": "Sceptile",
+      "originalType": [
+        "Grass"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/sceptile.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Sceptile",
+          "megaType": [
+            "Grass",
+            "Dragon"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/sceptile-mega.jpg",
+          "description": "Mega Sceptile is a Grass/Dragon type Pokémon. It gains increased Special Attack and Speed stats, with a sleeker and more dragon-like appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/sceptilite.png"
+        }
+      ]
+    },
+    {
+      "name": "Blaziken",
+      "originalType": [
+        "Fire",
+        "Fighting"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/blaziken.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Blaziken",
+          "megaType": [
+            "Fire",
+            "Fighting"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/blaziken-mega.jpg",
+          "description": "Mega Blaziken is a Fire/Fighting type Pokémon. It gains increased Attack and Speed stats, with a more intense flame and a more aggressive appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/blazikenite.png"
+        }
+      ]
+    },
+    {
+      "name": "Swampert",
+      "originalType": [
+        "Water",
+        "Ground"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/swampert.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Swampert",
+          "megaType": [
+            "Water",
+            "Ground"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/swampert-mega.jpg",
+          "description": "Mega Swampert is a Water/Ground type Pokémon. It gains increased Attack and Defense stats, with a more muscular and robust appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/swampertite.png"
+        }
+      ]
+    },
+    {
+      "name": "Gardevoir",
+      "originalType": [
+        "Psychic",
+        "Fairy"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/gardevoir.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Gardevoir",
+          "megaType": [
+            "Psychic",
+            "Fairy"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/gardevoir-mega.jpg",
+          "description": "Mega Gardevoir is a Psychic/Fairy type Pokémon. It gains increased Special Attack and Speed stats, with a more elegant and regal appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/gardevoirite.png"
+        }
+      ]
+    },
+    {
+      "name": "Sableye",
+      "originalType": [
+        "Dark",
+        "Ghost"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/sableye.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Sableye",
+          "megaType": [
+            "Dark",
+            "Ghost"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/sableye-mega.jpg",
+          "description": "Mega Sableye is a Dark/Ghost type Pokémon. It gains increased Defense and Special Defense stats, with a large jewel as a shield and a more menacing appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/sablenite.png"
+        }
+      ]
+    },
+    {
+      "name": "Mawile",
+      "originalType": [
+        "Steel",
+        "Fairy"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/mawile.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Mawile",
+          "megaType": [
+            "Steel",
+            "Fairy"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/mawile-mega.jpg",
+          "description": "Mega Mawile is a Steel/Fairy type Pokémon. It gains increased Attack and Defense stats, with additional jaws and a more fearsome appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/mawilite.png"
+        }
+      ]
+    },
+    {
+      "name": "Aggron",
+      "originalType": [
+        "Steel",
+        "Rock"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/aggron.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Aggron",
+          "megaType": [
+            "Steel"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/aggron-mega.jpg",
+          "description": "Mega Aggron is a Steel type Pokémon. It gains increased Defense and Attack stats, with additional armor plating and a more formidable appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/aggronite.png"
+        }
+      ]
+    },
+    {
+      "name": "Medicham",
+      "originalType": [
+        "Fighting",
+        "Psychic"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/medicham.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Medicham",
+          "megaType": [
+            "Fighting",
+            "Psychic"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/medicham-mega.jpg",
+          "description": "Mega Medicham is a Fighting/Psychic type Pokémon. It gains increased Attack and Speed stats, with a more focused and meditative appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/medichamite.png"
+        }
+      ]
+    },
+    {
+      "name": "Manectric",
+      "originalType": [
+        "Electric"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/manectric.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Manectric",
+          "megaType": [
+            "Electric"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/manectric-mega.jpg",
+          "description": "Mega Manectric is an Electric type Pokémon. It gains increased Special Attack and Speed stats, with a more electrifying and intense appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/manectite.png"
+        }
+      ]
+    },
+    {
+      "name": "Sharpedo",
+      "originalType": [
+        "Water",
+        "Dark"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/sharpedo.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Sharpedo",
+          "megaType": [
+            "Water",
+            "Dark"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/sharpedo-mega.jpg",
+          "description": "Mega Sharpedo is a Water/Dark type Pokémon. It gains increased Attack and Speed stats, with a more ferocious appearance featuring additional scars and a larger fin.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/sharpedonite.png"
+        }
+      ]
+    },
+    {
+      "name": "Camerupt",
+      "originalType": [
+        "Fire",
+        "Ground"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/camerupt.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Camerupt",
+          "megaType": [
+            "Fire",
+            "Ground"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/camerupt-mega.jpg",
+          "description": "Mega Camerupt is a Fire/Ground type Pokémon. It gains increased Attack and Special Attack stats, with a more volcanic and imposing appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/cameruptite.png"
+        }
+      ]
+    },
+    {
+      "name": "Altaria",
+      "originalType": [
+        "Dragon",
+        "Flying"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/altaria.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Altaria",
+          "megaType": [
+            "Dragon",
+            "Fairy"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/altaria-mega.jpg",
+          "description": "Mega Altaria is a Dragon/Fairy type Pokémon. It gains increased Special Attack and Special Defense stats, with a more majestic and cloud-like appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/altarianite.png"
+        }
+      ]
+    },
+    {
+      "name": "Banette",
+      "originalType": [
+        "Ghost"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/banette.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Banette",
+          "megaType": [
+            "Ghost"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/banette-mega.jpg",
+          "description": "Mega Banette is a Ghost type Pokémon. It gains increased Attack and Special Attack stats, with a more sinister appearance featuring additional zippers and a more menacing grin.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/banettite.png"
+        }
+      ]
+    },
+    {
+      "name": "Absol",
+      "originalType": [
+        "Dark"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/absol.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Absol",
+          "megaType": [
+            "Dark"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/absol-mega.jpg",
+          "description": "Mega Absol is a Dark type Pokémon. It gains increased Attack and Speed stats, with a more graceful and angelic appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/absolite.png"
+        }
+      ]
+    },
+    {
+      "name": "Glalie",
+      "originalType": [
+        "Ice"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/glalie.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Glalie",
+          "megaType": [
+            "Ice"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/glalie-mega.jpg",
+          "description": "Mega Glalie is an Ice type Pokémon. It gains increased Attack and Speed stats, with a more fearsome and jagged appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/glalitite.png"
+        }
+      ]
+    },
+    {
+      "name": "Salamence",
+      "originalType": [
+        "Dragon",
+        "Flying"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/salamence.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Salamence",
+          "megaType": [
+            "Dragon",
+            "Flying"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/salamence-mega.jpg",
+          "description": "Mega Salamence is a Dragon/Flying type Pokémon. It gains increased Attack and Defense stats, with a more streamlined and aerodynamic appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/salamencite.png"
+        }
+      ]
+    },
+    {
+      "name": "Metagross",
+      "originalType": [
+        "Steel",
+        "Psychic"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/metagross.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Metagross",
+          "megaType": [
+            "Steel",
+            "Psychic"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/metagross-mega.jpg",
+          "description": "Mega Metagross is a Steel/Psychic type Pokémon. It gains increased Attack and Speed stats, with additional limbs and a more powerful appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/metagrossite.png"
+        }
+      ]
+    },
+    {
+      "name": "Latias",
+      "originalType": [
+        "Dragon",
+        "Psychic"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/latias.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Latias",
+          "megaType": [
+            "Dragon",
+            "Psychic"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/latias-mega.jpg",
+          "description": "Mega Latias is a Dragon/Psychic type Pokémon. It gains increased Special Attack and Special Defense stats, with a more sleek and aerodynamic appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/latiasite.png"
+        }
+      ]
+    },
+    {
+      "name": "Latios",
+      "originalType": [
+        "Dragon",
+        "Psychic"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/latios.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Latios",
+          "megaType": [
+            "Dragon",
+            "Psychic"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/latios-mega.jpg",
+          "description": "Mega Latios is a Dragon/Psychic type Pokémon. It gains increased Special Attack and Special Defense stats, with a more sleek and aerodynamic appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/latiosite.png"
+        }
+      ]
+    },
+    {
+      "name": "Rayquaza",
+      "originalType": [
+        "Dragon",
+        "Flying"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/rayquaza.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Rayquaza",
+          "megaType": [
+            "Dragon",
+            "Flying"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/rayquaza-mega.jpg",
+          "description": "Mega Rayquaza is a Dragon/Flying type Pokémon. It gains increased Attack, Special Attack, and Speed stats, with a more elaborate and powerful appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/rayquazite.png"
+        }
+      ]
+    },
+    {
+      "name": "Lopunny",
+      "originalType": [
+        "Normal"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/lopunny.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Lopunny",
+          "megaType": [
+            "Normal",
+            "Fighting"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/lopunny-mega.jpg",
+          "description": "Mega Lopunny is a Normal/Fighting type Pokémon. It gains increased Attack and Speed stats, with a more agile and fierce appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/lopunnite.png"
+        }
+      ]
+    },
+    {
+      "name": "Garchomp",
+      "originalType": [
+        "Dragon",
+        "Ground"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/garchomp.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Garchomp",
+          "megaType": [
+            "Dragon",
+            "Ground"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/garchomp-mega.jpg",
+          "description": "Mega Garchomp is a Dragon/Ground type Pokémon. It gains increased Attack and Defense stats, with larger claws and a more fearsome appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/garchompite.png"
+        }
+      ]
+    },
+    {
+      "name": "Lucario",
+      "originalType": [
+        "Fighting",
+        "Steel"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/lucario.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Lucario",
+          "megaType": [
+            "Fighting",
+            "Steel"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/lucario-mega.jpg",
+          "description": "Mega Lucario is a Fighting/Steel type Pokémon. It gains increased Attack and Speed stats, with a more intense and powerful appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/lucarionite.png"
+        }
+      ]
+    },
+    {
+      "name": "Abomasnow",
+      "originalType": [
+        "Grass",
+        "Ice"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/abomasnow.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Abomasnow",
+          "megaType": [
+            "Grass",
+            "Ice"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/abomasnow-mega.jpg",
+          "description": "Mega Abomasnow is a Grass/Ice type Pokémon. It gains increased Attack and Defense stats, with a more imposing and frosty appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/abomasite.png"
+        }
+      ]
+    },
+    {
+      "name": "Gallade",
+      "originalType": [
+        "Psychic",
+        "Fighting"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/gallade.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Gallade",
+          "megaType": [
+            "Psychic",
+            "Fighting"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/gallade-mega.jpg",
+          "description": "Mega Gallade is a Psychic/Fighting type Pokémon. It gains increased Attack and Speed stats, with a more refined and knight-like appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/galladite.png"
+        }
+      ]
+    },
+    {
+      "name": "Audino",
+      "originalType": [
+        "Normal"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/audino.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Audino",
+          "megaType": [
+            "Normal",
+            "Fairy"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/audino-mega.jpg",
+          "description": "Mega Audino is a Normal/Fairy type Pokémon. It gains increased Defense and Special Defense stats, with a more nurturing and protective appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/audinonite.png"
+        }
+      ]
+    },
+    {
+      "name": "Diancie",
+      "originalType": [
+        "Rock",
+        "Fairy"
+      ],
+      "originalImage": "https://img.pokemondb.net/artwork/large/diancie.jpg",
+      "megaEvolutions": [
+        {
+          "megaName": "Mega Diancie",
+          "megaType": [
+            "Rock",
+            "Fairy"
+          ],
+          "megaImage": "https://img.pokemondb.net/artwork/large/diancie-mega.jpg",
+          "description": "Mega Diancie is a Rock/Fairy type Pokémon. It gains increased Attack and Special Attack stats, with a more dazzling and gem-like appearance.",
+          "megaStoneImage": "https://img.pokemondb.net/sprites/items/diancite.png"
+        }
+      ]
+    }
+  ]
+}
