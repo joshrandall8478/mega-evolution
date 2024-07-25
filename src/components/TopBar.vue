@@ -23,25 +23,26 @@
 </template>
 <style scoped>
 nav{
-    
+    display: block;
     position: fixed;
 
     top: 0;
     left: 0;
     background-color: gray;
     width: 100vw;
-    height: 150px;
+    height: 100px;
+    z-index: 999;
 }
 .nav__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 100px;
+    padding: 10px 50px;
     margin: 0px 50px;
 }
 #nav__logo{
     display: flex;
-    width: 75px;
+    width: 50px;
     height: auto;
 }
 

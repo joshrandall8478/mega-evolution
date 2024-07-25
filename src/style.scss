@@ -42,6 +42,9 @@ h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
 }
+main{
+	margin-top: 75px;
+}
 button {
 	border-radius: 8px;
 	border: 1px solid transparent;
@@ -70,6 +73,28 @@ button {
 	margin: 0 auto;
 	padding: 2rem;
 	text-align: center;
+}
+
+.container{
+	display: block;
+	margin: auto;
+	position: relative;
+	justify-content: center;
+	width: 1350px;
+}
+.pokemon__container{
+	.pokemon__image{
+		img{
+			height: 100px;
+			width: auto;
+			margin: auto;
+		}
+	}
+	display: grid;
+	grid-template-columns: 2em 2em;
+	margin: 10px auto;
+	border: 2px white solid;
+	width: 80vw;
 }
 @media (prefers-color-scheme: light) {
 	:root {
