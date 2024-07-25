@@ -70,24 +70,27 @@ button:focus-visible {
 }
 
 .container {
-  display: block;
   margin: auto;
   position: relative;
   justify-content: center;
-  width: 1350px;
+  align-items: center;
+  width: 1000px;
+  justify-content: center;
 }
 
 .pokemon__container {
+  position: relative;
   display: grid;
-  grid-template-columns: 2em 2em;
+  grid-template-columns: 2fr 2fr;
   margin: 10px auto;
   border: 2px white solid;
-  width: 80vw;
+}
+.pokemon__container .pokemon__image {
+  align-items: left;
 }
 .pokemon__container .pokemon__image img {
   height: 100px;
   width: auto;
-  margin: auto;
 }
 
 @media (prefers-color-scheme: light) {

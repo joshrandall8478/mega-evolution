@@ -76,25 +76,28 @@ button {
 }
 
 .container{
-	display: block;
+	// display: block;
 	margin: auto;
 	position: relative;
 	justify-content: center;
-	width: 1350px;
+	align-items: center;
+	width: 1000px;
+	justify-content: center;
 }
 .pokemon__container{
+	position: relative;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	margin: 10px auto;
+	border: 2px white solid;
 	.pokemon__image{
+		align-items: left;
 		img{
 			height: 100px;
 			width: auto;
-			margin: auto;
+			// margin: auto;
 		}
 	}
-	display: grid;
-	grid-template-columns: 2em 2em;
-	margin: 10px auto;
-	border: 2px white solid;
-	width: 80vw;
 }
 @media (prefers-color-scheme: light) {
 	:root {
