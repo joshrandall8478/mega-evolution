@@ -20,7 +20,7 @@ import { data } from './assets/data.json';
         </div>
         <div class="pokemon__data">
           <h1>{{ pokemon.name }}</h1>
-          <h3>Types: <a v-for="(type, index) in pokemon.originalType">{{ type }}{{ index !== pokemon.originalType.length - 1 ? ', ' : '' }}</a></h3>
+          <h3>Type{{ pokemon.originalType.length == 1 ? '' : 's' }}: <a v-for="(type, index) in pokemon.originalType">{{ type }}{{ index !== pokemon.originalType.length - 1 ? ', ' : '' }}</a></h3>
         </div>
       </a>
      </div>
