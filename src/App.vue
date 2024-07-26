@@ -19,8 +19,8 @@ import { data } from './assets/data.json';
           <img :src="pokemon.originalImage" alt="">
         </div>
         <div class="pokemon__data">
-          <h2>{{ pokemon.name }}</h2>
-          <h3>Types: <a v-for="type in pokemon.originalType">{{ type }}<br></a></h3>
+          <h1>{{ pokemon.name }}</h1>
+          <h3>Types: <a v-for="(type, index) in pokemon.originalType">{{ type }}{{ index !== pokemon.originalType.length - 1 ? ', ' : '' }}</a></h3>
         </div>
       </a>
      </div>

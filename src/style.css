@@ -81,16 +81,23 @@ button:focus-visible {
 .pokemon__container {
   position: relative;
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 0.5fr 2fr;
   margin: 10px auto;
-  border: 2px white solid;
+  border: 3px white solid;
+  border-radius: 25px;
 }
 .pokemon__container .pokemon__image {
   align-items: left;
 }
 .pokemon__container .pokemon__image img {
-  height: 100px;
+  height: 170px;
   width: auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+.pokemon__container .pokemon__data {
+  text-align: right;
+  padding: 15px;
 }
 
 @media (prefers-color-scheme: light) {
