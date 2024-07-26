@@ -7,7 +7,7 @@ import TopBar from './components/TopBar.vue';
 </script>
 <script>
 import { data } from './assets/data.json';
-var pokemon = data[0];
+// var pokemon = data[0];
 </script>
 
 
