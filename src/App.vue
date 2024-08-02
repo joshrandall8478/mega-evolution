@@ -1,22 +1,24 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
 import TopBar from './components/TopBar.vue';
-
+// import MegaMenu from './mega-menu.js';
 
 
 </script>
 <script>
 import { data } from './assets/data.json';
-// var pokemon = data[0];
+var pokemon = data[0];
 </script>
 
+<script>
+</script>
 
 <template>
   <TopBar />
   <main>
     <div class="container">
-      <a class="pokemon__container" v-for="pokemon in data">
-        <!-- <a class="pokemon__container"> -->
+      <!-- <a class="pokemon__container" v-for="pokemon in data"> -->
+        <a class="pokemon__container">
         <div class="pokemon__image">
           <img :src="pokemon.originalImage" alt="">
         </div>
