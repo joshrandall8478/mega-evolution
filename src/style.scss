@@ -112,6 +112,12 @@ button {
 		padding: 15px;
 	}
 }
+
+// Mega container
+.mega__popup{
+	display: none;
+}
+
 @media (prefers-color-scheme: light) {
 	:root {
 		color: $color_4;

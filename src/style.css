@@ -106,6 +106,10 @@ button:focus-visible {
   padding: 15px;
 }
 
+.mega__popup {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

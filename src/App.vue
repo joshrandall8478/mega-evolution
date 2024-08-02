@@ -26,10 +26,11 @@ var pokemon = data[0];
           <h1>{{ pokemon.name }}</h1>
           <h3>Type{{ pokemon.originalType.length == 1 ? '' : 's' }}: <a v-for="(type, index) in pokemon.originalType">{{ type }}{{ index !== pokemon.originalType.length - 1 ? ', ' : '' }}</a></h3>
         </div>
-        <!-- <div class="mega__container" v-for="megaEvolution in pokemon.megaEvolutions">
-          <img :src="megaEvolution.megaImage">
-        </div> -->
+        
       </a>
+     </div>
+     <div class="mega__popup">
+      
      </div>
   </main>
 </template>
